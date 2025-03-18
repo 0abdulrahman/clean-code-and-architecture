@@ -48,6 +48,7 @@ export default function LoginForm() {
     },
   });
 
+  // Functions
   const onSubmit: SubmitHandler<LoginFields> = (values) => {
     login(values);
   };

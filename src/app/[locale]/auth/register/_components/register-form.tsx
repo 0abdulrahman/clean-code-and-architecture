@@ -56,6 +56,7 @@ export default function RegisterForm() {
     },
   });
 
+  // Functions
   function onSubmit(values: RegistrationFields) {
     register(values);
   }
