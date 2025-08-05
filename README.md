@@ -30,16 +30,17 @@ Please ensure that the code in **hooks** and **components** is consistently orga
 2. **Navigation** – Define any navigation-related logic or hooks.
 3. **State** – Declare local or global state variables.
 4. **Context** – Use context providers and consumers.
-5. **Hooks** – Call custom and built-in React hooks.
-6. **Ref** – Declare and manage `ref` objects.
+5. **Ref** – Declare and manage `ref` objects.
+6. **Hooks** – Call custom and built-in React hooks.
 7. **Queries** – Handle data fetching queries (e.g., using React Query).
 8. **Mutation** – Handle data mutation logic (e.g., using React Query).
 9. **Form & Validation** – Set up form state and validation (e.g., using `react-hook-form`, `zod`).
-10. **Variables** – Define any constants or variables (this is flexible based on context).
+10. **Variables** – Define any constants or variables.
 11. **Functions** – Define utility functions or component-specific functions.
 12. **Effects** – Use `useEffect` or similar side-effect hooks at the end.
 
 Following this order helps maintain code consistency, improves readability, and makes it easier to debug and scale the project.
+Keep it mind that this order is flexiable based on the context, but use this order as a base.
 
 ## Resources
 
